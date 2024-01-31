@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        <h1>Sobre rodas </h1>
+    </header>
+    <nav>
+        <a href="/">HOME</a>
+        <a href="/sobre">SOBRE</a>
+        <a href="/contato">CONTATO</a>
+        <a href="/postagens">POSTAGENS</a>
+        <a href="/login">LOGIN</a>
+    </nav>
+    <main class="container">
+        <!-- <div class="jumbotron"></div> -->
+        <div class="container-sm border">
+            <div class="form-group">
+                <h3 style="text-align: center;">Login</h3>
+                <form action="/login" method="post">
+                    <div class="form-group">
+                        <div><label for="username" >Usuário:</label></div>
+                        <div><input type="text" id="username" name="username" required class="form-control"></div>
+                    </div>
+                    <div class="form-group">
+                        <div><label for="password">Senha:</label></div>
+                        <div> <input type="password" id="password" name="password" required class="form-control"></div>
+                    </div>
+                    <div><button type="submit" class="form-control btn btn-dark">ENTRAR</button></div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <section id="home">
+        <h2>Bem-vindo a este blog </h2>
+        <p>Este é um blog sobre noticias automotivas do Brasil e do Mundo. </p>
+        <p>Sempre mostrando os lançamentos das principais marcas.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 sobrerodasltda. Todos os direitos reservados.</p>
+    </footer>
+
+
+</body>
+</html>
